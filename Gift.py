@@ -22,8 +22,105 @@ GIFTS = {
         "sapphireribbon",
         "silverribbon",
         "tealribbon",
-        "yellowribbon",
+        "yellowribbon"
     ],
+
+
+    "Sprite Ribbons": [
+    "bisexualpridethemedribbon",
+    "blackandwhiteribbon",
+    "blueandwhitestripedribbon",
+    "bronzeribbon",
+    "brownribbon",
+    "gradientribbon",
+    "lowpolygradientribbon",
+    "pinkandwhitestripedribbon",
+    "rainbowgradientribbon",
+    "starryblackskyribbon",
+    "starryredskyribbon",
+    "transgenderpridethemedribbon",
+    "whiteonredpolkadotribbon",
+    "coffeeribbon",
+    "goldribbon",
+    "hotpinkribbon",
+    "lilacribbon",
+    "limegreenribbon",
+    "navyblueribbon",
+    "orangeribbon",
+    "royalpurpleribbon",
+    "skyblueribbon",
+    "blackbow",
+    "8purpleribbon",
+    "8redribbon",
+    "amdekamberribbon",
+    "gameboygreenribbon",
+    "supergameboygreenribbon",
+    "8blueribbon",
+    "8emeraldribbon",
+    "8whiteribbon"
+    "bluebunnyscrunchie",
+    "stypeblackribbon",
+    "stypeblueribbon",
+    "stypedarkpurpleribbon",
+    "stypedefribbon",
+    "stypeemeraldribbon",
+    "stypegrayribbon",
+    "stypegreenribbon",
+    "stypelightpurpleribbon",
+    "stypepeachribbon",
+    "stypepinkribbon",
+    "stypeplatinumribbon",
+    "styperedribbon",
+    "styperubyribbon",
+    "stypesapphireribbon",
+    "stypesilverribbon",
+    "stypetealribbon",
+    "stypewineribbon",
+    "stypeyellowribbon"
+    ]
+
+"Sprite Hair Clips": [
+    "bathairclip",
+    "crescentmoonhairclip",
+    "ghosthairclip",
+    "pumpkinhairclip",
+    "cherryhairclip",
+    "hearthairclip",
+    "musicnotehairclip"
+]
+
+"Sprite Shirts": [
+    "putonahappyface",
+    "blueshirt",
+    "greendress",
+    "greenhoodie",
+    "brownwinterjacket",
+    "resthereshirt",
+    "bluesweatervest",
+    "tanktop",
+    "beigeturtleneck",
+    "2bcosplay",
+    "pinkkimono",
+    "blackandwhitestripedpullover",
+    "wineasymmetricalpullover",
+    "pinkshirt",
+    "whiteandnavybluedress",
+]
+
+"Sprite Necklaces": [
+    "anchor_necklace",
+    "animalcrossing_necklace",
+    "cactus_necklace",
+    "goldchain_necklace",
+    "snailshell_necklace",
+    "star_necklace",
+    "sunflower_necklace",
+    "triforce_necklace",
+    "heartchoker",
+    "floweredchoker",
+    "simplechoker"
+]
+
     "All Year": [
         "coffee",
         "hotchocolate",
@@ -175,3 +272,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     GiftGeneratorApp(root)
     root.mainloop()
+
