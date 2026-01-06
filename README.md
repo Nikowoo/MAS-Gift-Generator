@@ -8,6 +8,8 @@ This GUI helps you quickly create all the gifts you could ever need, sorted neat
 ![Screenshot of MAS Gift Generator GUI](https://raw.githubusercontent.com/Nikowoo/MAS-Gift-Generator/2a551d1d3beaaff190a70a2fa6f2b574607c70c4/giftdemo.gif)  
 
 ---
+It is recomended to use a seperate directory from the \Doki Doki Literature Club\characters\ folder since you can't select individual gifts and they will all be generated together
+---
 
 ## Prerequisites
 
