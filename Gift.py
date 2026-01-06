@@ -77,7 +77,7 @@ GIFTS = {
     "stypetealribbon",
     "stypewineribbon",
     "stypeyellowribbon"
-    ]
+    ],
 
 "Sprite Hair Clips": [
     "bathairclip",
@@ -87,7 +87,7 @@ GIFTS = {
     "cherryhairclip",
     "hearthairclip",
     "musicnotehairclip"
-]
+],
 
 "Sprite Shirts": [
     "putonahappyface",
@@ -105,7 +105,7 @@ GIFTS = {
     "wineasymmetricalpullover",
     "pinkshirt",
     "whiteandnavybluedress",
-]
+],
 
 "Sprite Necklaces": [
     "anchor_necklace",
@@ -119,7 +119,7 @@ GIFTS = {
     "heartchoker",
     "floweredchoker",
     "simplechoker"
-]
+],
 
     "All Year": [
         "coffee",
@@ -272,4 +272,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     GiftGeneratorApp(root)
     root.mainloop()
+
 
