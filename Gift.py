@@ -148,11 +148,12 @@ GIFT_GUIDE_URL = (
     "https://github.com/Monika-After-Story/MonikaModDev/wiki/Gift-Giving-Guide#gifts"
 )
 
+NIKO_GITHUB_URL = ("https://github.com/Nikowoo" )
+
 
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """
     try:
-        # PyInstaller stores temp path in _MEIPASS
         base_path = sys._MEIPASS
     except Exception:
         base_path = os.path.abspath(".")
@@ -164,8 +165,6 @@ class GiftGeneratorApp:
         self.root = root
         self.root.title("Monika After Story Gift Generator")
         self.root.resizable(False, False)
-
-        # Load icon correctly whether running as .py or .exe
         try:
             icon_path = resource_path("MAS.ico")
             self.root.iconbitmap(icon_path)
@@ -207,13 +206,18 @@ class GiftGeneratorApp:
             cb = tk.Checkbutton(categories_frame, text=name, variable=self.folder_vars[name])
             cb.grid(row=i // 2, column=i % 2, sticky="w", padx=6, pady=3)
 
-        # Generate button
+        # make generate button
         tk.Button(main_frame, text="Generate Gifts", width=20, command=self.generate).grid(row=4, column=0, columnspan=2, pady=12)
 
-        # Link to guide
+        # monika after story gifting guide github page
         link = tk.Label(main_frame, text="MAS Gift Giving Guide", fg="blue", cursor="hand2")
         link.grid(row=5, column=0, columnspan=2)
         link.bind("<Button-1>", lambda e: webbrowser.open(GIFT_GUIDE_URL))
+
+        #link to my github if you want
+        link = tk.Label(main_frame, text="My Github", fg="blue", cursor="hand2")
+        link.grid(row=5, column=0, columnspan=2)
+        link.bind("<Button-1>", lambda e: webbrowser.open(NIKO_GITHUB_URL))
 
     def browse(self):
         path = filedialog.askdirectory()
