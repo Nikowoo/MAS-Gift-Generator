@@ -216,7 +216,7 @@ class GiftGeneratorApp:
 
         #link to my github if you want
         link = tk.Label(main_frame, text="My Github", fg="blue", cursor="hand2")
-        link.grid(row=5, column=0, columnspan=2)
+        link.grid(row=6, column=0, columnspan=2)
         link.bind("<Button-1>", lambda e: webbrowser.open(NIKO_GITHUB_URL))
 
     def browse(self):
@@ -262,6 +262,7 @@ class GiftGeneratorApp:
                 open(path, "w").close()
                 created += 1
 
+            
             messagebox.showinfo(
                 "Done",
                 f"{created} files created successfully."
