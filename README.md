@@ -13,7 +13,7 @@ It is recomended to use a seperate directory from the \Doki Doki Literature Club
 
 ## Prerequisites
 
-- Windows PC  
+- Windows or linux Computer
 - Python 3.7 or higher (if running from source)  
 
 ---
